@@ -41,3 +41,4 @@ print(f"✅ Видалено {deleted.deleted_count} книг.\n")
 print("Оновлений список книг:")
 for book in collection.find():
     print(f"  - {book.get('назва', 'Без назви')} ({book.get('кількість_сторінок')} сторінок)")
+print("@BubblyCat")
